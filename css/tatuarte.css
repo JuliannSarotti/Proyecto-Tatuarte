@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(black, rgb(6, 6, 82));
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: white;
+}
+.banner{
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 150px;
+    text-align: center;
+    color: white;
+    background-image: url(./imagenes/banner.4.jpg);
+    background-repeat: repeat;
+}
+header{
+    color: white;
+    background-color: black;
+}
+nav ol li{
+    list-style: none;
+    display: inline;
+    margin: 90px;
+    text-align: center;
+}
+#introIndex .hdosIndex {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+#introIndex .introTex{
+    display: flex;
+    justify-content: center;
+}
+#multimediaIndex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+
+} 
+#multimediaIndex img{
+    width: 100%;
+}
+#multimediaIndex .imgIndex{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#listaIndex .hLista{
+    text-decoration: underline;
+     display: flex;
+     justify-content: left;
+}
+#listaIndex .listaInicio{
+    text-align: left;
+}
+
+.tablaInicio{
+    text-decoration: underline;
+    background: radial-gradient(to left, black 90%,rgb(6, 6, 82) 10%);
+    display: flex;
+    justify-content: center;
+}
+.tabla{
+    background: radial-gradient(to left, black 90%,rgb(6, 6, 82) 10%);
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-image: url(./imagenes/footer_fondo.jpg);
+}
+@media screen and (max-width: 500px) {
+    #multimediaIndex {
+        flex-direction: column;
+    }
+ }
+
+ #historiaUno .queEs{
+     text-decoration: underline ;
+     display: flex;
+     justify-content: center;
+ }
+#historiaUno .respQue{
+    display: flex;
+    justify-content: center;
+}
+#historiaDos .laHistoria{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+#historiaDos .laHistoriaTex{
+    display: flex;
+    justify-content: center;
+}
+#imagenesHistoria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    
+}
+#imagenesHistoria img{
+    width: 100%;
+}
+@media screen and (max-width: 500px) {
+    #imagenesHistoria{
+        flex-direction: column;
+    }
+    
+}
+#introEstilos .estilosT{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+#introEstilos .estilosP{
+    display: flex;
+    justify-content: center;
+}
+#estiloT{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#estiloT .estiloTt{
+    text-decoration: underline;
+}
+#estiloT .estiloTi{
+    width: 80%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#estiloT .estiloTp{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+#estiloN{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#estiloN .estiloNt{
+    text-decoration: underline;
+}
+#estiloN .estiloNi{
+    width: 80%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#estiloN .estiloNp{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+#estiloP{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#estiloP .estiloPt{
+    text-decoration: underline;
+}
+#estiloP .estiloPi{
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#estiloP .estiloPp{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+#estiloO{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#estiloO .estiloOt{
+    text-decoration: underline;
+}
+#estiloO .estiloOi{
+    width: 80%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#estiloO .estiloOp{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+#estiloB{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#estiloB .estiloBt{
+    text-decoration: underline;
+}
+#estiloB .estiloBi{
+    width: 80%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#estiloB .estiloBp{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+#estiloA{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#estiloA .estiloAt{
+    text-decoration: underline;
+}
+#estiloA .estiloAi{
+    width: 80%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#estiloA .estiloAp{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+#estiloNs{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#estiloNs .estiloNsT{
+    text-decoration: underline;
+}
+#estiloNs .estiloNsI{
+    width: 80%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#estiloNs .estiloNsP{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+#introIdeas .introIdeasT{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+#introIdeas .introIdeasP{
+    display: flex;
+    justify-content: center;
+}
+#ideasVid .ideasVidP{
+    display: flex;
+    justify-content: center;
+}
+#ideasVid .ideasVidV{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ideasTex{
+    display: flex;
+    justify-content: center;
+}
+#ideasMultiUno img{
+    width: 100%;
+    gap: 5px;
+}
+#ideasMultiUno{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#ideasMultiUno .multiUno{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#ideasMultiUno .multiDos{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#ideasMultiDos img{
+    width: 100%;
+    gap: 5px;
+}
+#ideasMultiDos {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#ideasMultiDos .multiTres{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#ideasMultiDos .multiCuatro{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#ideasMultiTres img {
+    width: 100%;
+    gap: 5px;
+}
+#ideasMultiTres {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+#ideasMultiTres .multiCinco{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#ideasMultiTres .multiSeis{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATU"ARTE"</title>
+    <link rel="shortcut icon" href="./Imagenes/icono.webp">
+    <link rel="stylesheet" href="./css/tatuarte.css">
+</head>
+<body>
+    <h1 class="banner"><strong>TATU"ARTE"</strong></h1>
+     <hr>
+    <header> <!-- Menu de navegacion -->
+         <nav>
+             <ol>
+                 <li><a href="#"> Home</a></li>
+                 <li><a href="./historia.html">  Historia </a></li>
+                 <li><a href="./estilos.html"> Estilos</a></li>
+                 <li><a href="./ideas.html">Ideas </a></li>
+                 <li><a href="./contacto.html"> Contacto</a></li>
+              </ol>
+         </nav>
+    </header>
+    <h2>Contacto</h2>
+    <p>
+        En esta seccion podras sacarte todas las dudas que tengas sobre los tatuajes y seran respondidas por un artista del tatto.
+    </p>
+    <h3>Sacate tus dudas y hace tus consultas..</h3>
+    <form action="enviar.php" method="get" enctype="text/plain">
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" placeholder="Ingrese su nombre" required>
+                <br>
+                <label for="Apellido">Apellido</label>
+                <input type="text" id="Apellido" placeholder="Ingrese su apellido" required>
+                <br>
+                <label for="mail">Email</label>
+                <input type="text" id="mail" placeholder="Ingrese su email" required>
+                <br>
+                <hr>
+                <label for="multi">Consulta</label>
+                <textarea name="consulta" id="consulta" cols="45" rows="7"></textarea>
+            </div>
+            <br>
+            <div>
+                ¿Desea recibir novedades de <b>Tatu"arte"</b> a su casilla de Email?
+                <input type="checkbox" id="novedades" value="1"> Si
+            </div>
+            <br>
+            <div>
+             <input type="button" value="Enviar ahora">  
+             <input type="button" value="Borrar todo">
+            </div>
+         </fieldset>
+     </form>
+     <br>
+     <br>
+        <h3>Responde nuestra breve encuesta y ayudanos a mejorar</h3>
+        <div>
+            <b>¿Que te parecio la informacion de la pagina?</b>
+             <input type="radio" name="encuesta" value="1"> Bien
+             <input type="radio" name="encuesta" value="2"> Regular
+             <input type="radio" name="encuesta" value="3"> Mala
+        <br>
+        <br>
+            <b>¿Recomendarias la pagina?</b>
+             <input type="radio" name="recomendar" value="1"> Si
+             <input type="radio" name="recomendar" value="2"> Quizas 
+             <input type="radio" name="recomendar" value="3"> No 
+        </div>
+    <br>
+         <div>
+            <input type="button" value="Enviar">
+        </div>
+    <br>
+    <footer>
+        <hr>
+        <h4><b>Buscanos en nuestras redes</b></h4>
+        <p>
+            <img src="./Imagenes/logo_ig.png" width="50" alt="logo instagram">
+            <img src="./Imagenes/logo_fb.png" width="40" alt="logo facebook">
+            <img src="./Imagenes/logo_wpp.png" width="40" alt="logo whatsapp">
+        </p>
+        <h5>Tatu"arte" no es propietario de las imagenes y videos que se muestran en el sitio</h5>
+    </footer>
+</body>
+</html>
