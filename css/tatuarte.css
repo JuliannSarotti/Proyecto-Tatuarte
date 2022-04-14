@@ -18,15 +18,22 @@ body{
     background-image: url(./imagenes/banner.4.jpg);
     background-repeat: repeat;
 }
-header{
-    color: white;
-    background-color: black;
+/* header{
+    /* color: white;
+    background-color: black; */
+
+.navbar-collapse{
+    justify-content: center;
+    font-size: larger;
 }
+
 nav ol li{
     list-style: none;
     display: inline;
     margin: 90px;
     text-align: center;
+
+
 }
 #introIndex .hdosIndex {
     text-decoration: underline;
@@ -303,4 +310,8 @@ footer{
 #ideasMultiTres .multiSeis{
     grid-column: 2/3;
     grid-row: 1/2;
+}
+.contactoP{
+    display: flex;
+    justify-content: center;
 }
