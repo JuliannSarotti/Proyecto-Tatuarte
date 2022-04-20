@@ -48,13 +48,13 @@
     </header>
     <hr>
     <br>
-    <div id="introIdeas">
+    <div id="introIdeas"> <!-- introduccion de ideas -->
         <h3 class="introIdeasT">Ideas</h3>
     <p class="introIdeasP">En esta seccion veras fotos y videos para tener referencia e ideas para tus futuros tatuajes.</p>
     <br>
     </div>
     <hr>
-    <div id="ideasVid">
+    <div id="ideasVid"> <!-- video con ideas para tatuajes -->
         <p class="ideasVidP">en este video veras ideas para tatuajes pequeños y delicados. </p>
         <iframe class="ideasVidV" width="560" height="315" src="https://www.youtube.com/embed/xdQ2GpxulDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -63,20 +63,36 @@
     <br>
     <p class="ideasTex">Abajo dejamos algunas imagenes de estilos variados</p>
     <br>
-    <hr>
-    <div id="ideasMultiUno">
-        <img class="multiUno" src="./Imagenes/Ideas/Traditional_tattoo.jpg" alt="imagen tradi">
-        <img class="multiDos" src="./Imagenes/Ideas/uno.jpg" alt="imagen alas">
-    </div>
-    <hr>
-    <div id="ideasMultiDos">
-        <img class="multiTres" src="./Imagenes/Ideas/dos.jpg" alt="imagen antebrazo">
-        <img class="multiCuatro" src="./Imagenes/Ideas/tres.jpg" alt="imagen tribal">
-    </div>
-    <hr>
-    <div id="ideasMultiTres">
-        <img class="multiCinco" src="./Imagenes/Ideas/cuatro.jpg" alt="imagen torso ">
-        <img class="multiSeis" src="./Imagenes/Ideas/cinco.jpg" alt="imagen antebrazo realismo">
+    <hr> <!-- carousel con imagenes variadas de tatuajes -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Imagenes/Ideas/uno.jpg" class="d-block w-100" alt="imagen alas">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Ideas/dos.jpg" class="d-block w-100" alt="imagen antebrazo">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Ideas/tres.jpg" class="d-block w-100" alt="imagen tribal">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Ideas/cuatro.jpg" class="d-block w-100" alt="imagen torso">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Ideas/cinco.jpg" class="d-block w-100" alt="imagen realismo">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/Ideas/Traditional_tattoo.jpg" class="d-block w-100" alt="imagen tradi">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <hr>
     <footer>

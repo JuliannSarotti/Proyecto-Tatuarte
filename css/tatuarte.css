@@ -18,10 +18,6 @@ body{
     background-image: url(./imagenes/banner.4.jpg);
     background-repeat: repeat;
 }
-/* header{
-    /* color: white;
-    background-color: black; */
-
 .navbar-collapse{
     justify-content: center;
     font-size: larger;
@@ -262,54 +258,6 @@ footer{
 .ideasTex{
     display: flex;
     justify-content: center;
-}
-#ideasMultiUno img{
-    width: 100%;
-    gap: 5px;
-}
-#ideasMultiUno{
-    display: grid;
-    grid-template-columns: 2, 1fr;
-}
-#ideasMultiUno .multiUno{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-#ideasMultiUno .multiDos{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-#ideasMultiDos img{
-    width: 100%;
-    gap: 5px;
-}
-#ideasMultiDos {
-    display: grid;
-    grid-template-columns: 2, 1fr;
-}
-#ideasMultiDos .multiTres{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-#ideasMultiDos .multiCuatro{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-#ideasMultiTres img {
-    width: 100%;
-    gap: 5px;
-}
-#ideasMultiTres {
-    display: grid;
-    grid-template-columns: 2, 1fr;
-}
-#ideasMultiTres .multiCinco{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-#ideasMultiTres .multiSeis{
-    grid-column: 2/3;
-    grid-row: 1/2;
 }
 .contactoP{
     display: flex;
