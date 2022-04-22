@@ -1,0 +1,30 @@
+#introIdeas {
+    .introIdeasT {
+      text-decoration: underline;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .introIdeasP {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  #ideasVid {
+    .ideasVidP {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .ideasVidV {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .ideasTex {
+    display: flex;
+    justify-content: center;
+  }
