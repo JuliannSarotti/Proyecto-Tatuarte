@@ -7,8 +7,8 @@ const showEncuesta = () => {
         timer: 1500
       })
 }
-let butto = document.getElementById('enviarEncuesta');
-button.onclick=showEncuesta
+let EnviarEncuesta = document.getElementById('enviarEncuesta');
+EnviarEncuesta.onclick=showEncuesta
 
 const showBorrar = () => {
     Swal.fire({
@@ -18,7 +18,8 @@ const showBorrar = () => {
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Si, borrar datos!'
+        confirmButtonText: 'Si, borrar datos',
+        cancelButtonText: 'cancelar',
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire(
@@ -29,8 +30,8 @@ const showBorrar = () => {
         }
       })
 }
-let button = document.getElementById('borrar');
-button.onclick=showBorrar
+let borrar = document.getElementById('borrar');
+borrar.onclick=showBorrar
 
 const showFormulario = () => {
     Swal.fire({
@@ -41,5 +42,5 @@ const showFormulario = () => {
         timer: 1500
       })
 }
-let button = document.getElementById('enviarFormulario');
-button.onclick=showFormulario
+let enviarFormulario = document.getElementById('enviarFormulario');
+enviarFormularios.onclick=showFormulario
