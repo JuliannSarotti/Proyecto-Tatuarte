@@ -87,3 +87,7 @@ console.log (inventario.includes ('Calcos mandalas'));
 console.log (inventario.includes ('Calcos Black Work'));
 console.log (inventario.includes ('Calcos brush'));
 
+
+
+
+
